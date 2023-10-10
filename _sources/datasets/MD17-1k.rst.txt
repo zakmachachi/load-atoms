@@ -1,0 +1,43 @@
+MD17-1k
+=======
+
+1k of randomly sampled training structures for each system from the MD17 dataset
+(further split into 950 train and 50 validation), together with a further
+1k test structures.
+Exact code used to generate these structures is available 
+`here <https://github.com/jla-gardner/load-atoms/blob/main/database/MD17-1k/process.py>`_.
+Labels have been converted from the original units of kcal/mol to eV.
+
+
+.. code-block:: python
+
+    >>> from load_atoms import dataset
+    >>> dataset("MD17-1k")
+    MD17-1k:
+        structures: 16,000
+        atoms: 224,000
+        species:
+            H: 44.64%
+            C: 42.86%
+            O: 10.71%
+            N: 1.79%
+        properties:
+            per atom: (forces)
+            per structure: (energy, split, system)
+
+
+
+
+
+.. code-block:: bibtex
+
+    @article{Chmiela-17-05,
+      title = {Machine Learning of Accurate Energy-Conserving Molecular Force Fields},
+      author = {Chmiela, Stefan and Tkatchenko, Alexandre and Sauceda, Huziel E. and Poltavsky, Igor and Sch{\"u}tt, Kristof T. and M{\"u}ller, Klaus-Robert},
+      year = {2017},
+      journal = {Science Advances},
+      volume = {3},
+      number = {5},
+      pages = {e1603015},
+      doi = {10.1126/sciadv.1603015},
+    }

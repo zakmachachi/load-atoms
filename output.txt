@@ -1,0 +1,7 @@
+datasets/C-SYNTH-1M.rst:4: [redirected with Found] https://doi.org/10.1039/D2DD00137C to https://pubs.rsc.org/en/content/articlelanding/2023/DD/D2DD00137C
+datasets/SiO2-GAP-21.rst:4: [redirected with Found] https://doi.org/10.1038/s41524-022-00768-w to https://www.nature.com/articles/s41524-022-00768-w
+index.rst:81: [redirected permanently] https://github.com/jla-gardner/load-atoms/blob/main/dev/developer-guide to https://github.com/jla-gardner/load-atoms/tree/main/dev/developer-guide
+datasets/Si-GAP-18.rst:4: [redirected with Found] https://doi.org/10.5281/zenodo.1250555 to https://zenodo.org/record/1250555
+datasets/C-GAP-17.rst:4: [redirected permanently] https://doi.org/10.17863/CAM.7453 to https://www.repository.cam.ac.uk/items/575ab523-3e3a-469b-a1b7-ac22cd4a65b8
+datasets/C-GAP-20.rst:4: [redirected permanently] https://doi.org/10.17863/CAM.82086 to https://www.repository.cam.ac.uk/items/998cd56a-6651-4412-9745-a6ced7bd9947
+datasets/C-GAP-20.rst:4: [redirected permanently] https://doi.org/10.17863/CAM.54529 to https://www.repository.cam.ac.uk/items/ac362ef1-fa35-4bd4-8b56-2fde6d7b1d2c
